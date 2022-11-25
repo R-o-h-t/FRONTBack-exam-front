@@ -1,0 +1,18 @@
+@import '../styles/variables.scss';
+
+.nav-link {
+  color: $secondaryColor;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    color: $primaryColor;
+  }
+
+  &.active {
+    color: $primaryColor;
+
+  }
+}

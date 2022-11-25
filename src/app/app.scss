@@ -1,0 +1,23 @@
+* {
+  transition: all ease-in-out 0.1s;
+  background-image: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+a {
+  all: unset;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
